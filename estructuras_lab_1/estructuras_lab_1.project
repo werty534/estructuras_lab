@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="ejemplo01" Version="11000" InternalType="Console">
+<CodeLite_Project Name="ejemplo13" Version="11000" InternalType="Console">
   <Description/>
   <Dependencies/>
-  <VirtualDirectory Name="src">
-    <File Name="main.cpp"/>
-  </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -15,7 +12,7 @@
       </Linker>
       <ResourceCompiler Options=""/>
     </GlobalSettings>
-    <Configuration Name="Debug" CompilerType="Clang-18.1.8" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+    <Configuration Name="Debug" CompilerType="clang++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
       <Compiler Options="-gdwarf-2;-O0;-Wall" C_Options="-gdwarf-2;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="1">
         <IncludePath Value="."/>
       </Compiler>
@@ -95,4 +92,13 @@
       </Completion>
     </Configuration>
   </Settings>
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="Source Files">
+      <File Name="Persona.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Header Files">
+      <File Name="Persona.hpp"/>
+    </VirtualDirectory>
+    <File Name="main.cpp"/>
+  </VirtualDirectory>
 </CodeLite_Project>
