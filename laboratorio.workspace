@@ -15,7 +15,8 @@
   <Project Name="ejemplo11" Path="ejemplo11/ejemplo11.project" Active="No"/>
   <Project Name="ejemplo12" Path="ejemplo12/ejemplo12.project" Active="No"/>
   <Project Name="ejemplo13" Path="estructuras_lab_1/estructuras_lab_1.project" Active="No"/>
-  <Project Name="pilas" Path="pilas/pilas.project" Active="Yes"/>
+  <Project Name="pilas" Path="pilas/pilas.project" Active="No"/>
+  <Project Name="colas" Path="colas/colas.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -35,6 +36,7 @@
       <Project Name="ejemplo12" ConfigName="Debug"/>
       <Project Name="ejemplo13" ConfigName="Debug"/>
       <Project Name="pilas" ConfigName="Debug"/>
+      <Project Name="colas" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -54,6 +56,7 @@
       <Project Name="ejemplo12" ConfigName="Release"/>
       <Project Name="ejemplo13" ConfigName="Release"/>
       <Project Name="pilas" ConfigName="Release"/>
+      <Project Name="colas" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
