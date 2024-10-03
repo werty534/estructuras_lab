@@ -93,10 +93,14 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="Cola.cpp"/>
-    <File Name="Cola.hpp"/>
-    <File Name="NodoCola.cpp"/>
-    <File Name="NodoCola.hpp"/>
+    <VirtualDirectory Name="Source Files">
+      <File Name="Cola.cpp"/>
+      <File Name="NodoCola.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Header Files">
+      <File Name="Cola.hpp"/>
+      <File Name="NodoCola.hpp"/>
+    </VirtualDirectory>
     <File Name="main.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>

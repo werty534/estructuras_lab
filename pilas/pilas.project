@@ -3,10 +3,14 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
-    <File Name="Pila.cpp"/>
-    <File Name="Pila.hpp"/>
-    <File Name="NodoPila.cpp"/>
-    <File Name="NodoPila.hpp"/>
+    <VirtualDirectory Name="Source Files">
+      <File Name="NodoPila.cpp"/>
+      <File Name="Pila.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Header Files">
+      <File Name="Pila.hpp"/>
+      <File Name="NodoPila.hpp"/>
+    </VirtualDirectory>
     <File Name="main.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
