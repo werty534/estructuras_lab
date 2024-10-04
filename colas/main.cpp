@@ -1,4 +1,4 @@
-#include <Cola.hpp>>
+#include <Cola.hpp>
 
 int main(int argc, char** argv)
 {
